@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TDApp_Tests' do
+  pod 'TDApp', :path => '../'
+  
+  
+end
