@@ -1,0 +1,16 @@
+PODS:
+  - TDApp (0.1.0)
+
+DEPENDENCIES:
+  - TDApp (from `../`)
+
+EXTERNAL SOURCES:
+  TDApp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TDApp: ddabffa01de6f6e246a86eba4ab003dfce0721e9
+
+PODFILE CHECKSUM: 0b99a3ab99fb0b69e627316589cf4ad4504ba461
+
+COCOAPODS: 1.2.0
