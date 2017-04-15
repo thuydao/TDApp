@@ -38,5 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'TDCategory', 'TDWS', 'SDWebImage', 'MBProgressHUD', 'TPKeyboardAvoiding', 'GKActionSheetPicker'
+    s.dependency 'TDCategory'
+    s.dependency  'TDWS'
+    s.dependency 'SDWebImage'
+    s.dependency 'MBProgressHUD'
+    s.dependency 'TPKeyboardAvoiding'
+    s.dependency 'GKActionSheetPicker'
 end

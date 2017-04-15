@@ -13,10 +13,30 @@
   },
   "source": {
     "git": "https://github.com/thuydao/TDApp.git",
-    "tag": "0.1.0"
+    "branch": "master"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TDApp/Classes/**/*"
+  "source_files": "TDApp/Classes/**/*",
+  "dependencies": {
+    "TDCategory": [
+
+    ],
+    "TDWS": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "TPKeyboardAvoiding": [
+
+    ],
+    "GKActionSheetPicker": [
+
+    ]
+  }
 }
