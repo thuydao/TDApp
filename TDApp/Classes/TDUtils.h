@@ -11,7 +11,7 @@
 
 #define APP_NAME [TDUtils appname]
 
-#define SHOW_HUD(view,ani,message) [TDUtils showHUDAddedTo:view animated:ani msg:message]
+#define SHOW_HUD_MSG(view,ani,message) [TDUtils showHUDAddedTo:view animated:ani msg:message]
 #define SHOW_HUD(view,ani) [MBProgressHUD showHUDAddedTo:view animated:ani]
 #define HIDE_HUD(view,ani) [MBProgressHUD hideHUDForView:view animated:ani]
 
