@@ -10,17 +10,21 @@
 
 @implementation TDUtils
 
-+ (NSString *)appname
-{
-    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
-}
 
+#pragma mark - MBProgressHUD
 + (MBProgressHUD *)showHUDAddedTo:(UIView *)view animated:(BOOL)animated msg:(NSString *)msg
 {
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;
     hud.label.text = msg;
     return hud;
+}
+
+#pragma mark - NSString 
+
++ (NSString *)appname
+{
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
 }
 
 + (NSString *)joinString:(NSString *)str1 withString:(NSString *)str2
