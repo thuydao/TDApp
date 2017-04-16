@@ -12,7 +12,7 @@
 #define APP_NAME [TDUtils appname]
 
 #define SHOW_HUD(view,ani,message) [TDUtils showHUDAddedTo:view animated:ani msg:message]
-#define HIDE_HUD(view,ani) [TDUtils hideHUDForView:view animated:ani]
+#define HIDE_HUD(view,ani) [MBProgressHUD hideHUDForView:view animated:ani]
 
 #define JOIN(str1, str2) [TDUtils joinString:str1 withString:str2]
 
